@@ -1,0 +1,188 @@
+﻿<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Студия Красоты 29</title>
+  <meta name="description" content="Премиальный сайт студии красоты 29" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Unbounded:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg-orbs" aria-hidden="true">
+    <span class="orb orb-1"></span>
+    <span class="orb orb-2"></span>
+    <span class="orb orb-3"></span>
+  </div>
+
+  <header class="header" id="top">
+    <nav class="nav container">
+      <a href="#top" class="logo">STUDIO <span>29</span></a>
+      <button class="nav-toggle" aria-label="Открыть меню">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="#about">О нас</a></li>
+        <li><a href="#services">Услуги</a></li>
+        <li><a href="#gallery">Галерея</a></li>
+        <li><a href="#reviews">Отзывы</a></li>
+        <li><a href="#contact" class="btn btn-mini">Контакты</a></li>
+      </ul>
+    </nav>
+
+    <section class="hero container">
+      <div class="hero-copy reveal">
+        <p class="kicker">ПРЕМИАЛЬНОЕ ПРОСТРАНСТВО КРАСОТЫ</p>
+        <h1>Студия Красоты 29</h1>
+        <p class="lead">Эстетика, стерильность, профессионализм. Каждый визит - это результат, который хочется повторить.</p>
+        <div class="hero-rotator" aria-live="polite">
+          <span class="rotator-text">Маникюр, который привлекает взгляды</span>
+          <span class="rotator-text">Педикюр с идеальной обработкой</span>
+          <span class="rotator-text">Ресницы с естественным эффектом</span>
+        </div>
+        <div class="hero-actions">
+          <a href="#services" class="btn btn-gold">Смотреть прайс</a>
+          <a href="#contact" class="btn btn-ghost">Как нас найти</a>
+        </div>
+      </div>
+      <div class="hero-media reveal delay-1">
+        <img src="https://images.unsplash.com/photo-1607779097040-26e80aa78e66?auto=format&fit=crop&w=1200&q=80" alt="Нейл сервис" />
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section class="about section" id="about">
+      <div class="container about-grid">
+        <div class="reveal">
+          <p class="kicker">О СТУДИИ</p>
+          <h2>Сильный визуал и качество в каждой детали.</h2>
+          <p>Студия Красоты 29 - пространство, где совмещаются трендовые техники, сервис и атмосфера премиального ухода. Сайт тестовый, но полностью готов к запуску и продаже.</p>
+          <div class="stats">
+            <article><span>4.9</span><p>Средний рейтинг</p></article>
+            <article><span>5000+</span><p>Процедур в год</p></article>
+            <article><span>TOP</span><p>Нейл и ресницы</p></article>
+          </div>
+        </div>
+        <div class="about-cards reveal delay-1">
+          <article class="glass-card">
+            <h3>Чистая эстетика</h3>
+            <p>Премиальный золото-бело-черный стиль с современным характером.</p>
+          </article>
+          <article class="glass-card">
+            <h3>Актуальный прайс</h3>
+            <p>Маникюр, педикюр и ресницы с понятной структурой стоимости.</p>
+          </article>
+          <article class="glass-card">
+            <h3>Удобная навигация</h3>
+            <p>Клиент быстро находит услугу, цену, адрес и контакты.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="services section" id="services">
+      <div class="container">
+        <p class="kicker center reveal">ПРАЙС</p>
+        <h2 class="center reveal">Маникюр / Педикюр / Ресницы</h2>
+
+        <div class="price-columns">
+          <article class="price-block reveal">
+            <h3>Маникюр</h3>
+            <ul>
+              <li><span>Маникюр с покрытием гель-лак + снятие</span><b>2400/2700 ₽</b></li>
+              <li><span>Маникюр с укреплением гель + снятие</span><b>2700/3000 ₽</b></li>
+              <li><span>Маникюр с укреплением гель + френч</span><b>3100/3400 ₽</b></li>
+              <li><span>Маникюр с укреплением пудра + снятие</span><b>2600/2900 ₽</b></li>
+              <li><span>Комбинированный маникюр</span><b>1400/1600 ₽</b></li>
+              <li><span>Снятие + комбинированный маникюр</span><b>1600/1800 ₽</b></li>
+              <li><span>Мужской маникюр</span><b>1400/1600 ₽</b></li>
+              <li><span>Наращивание ногтей</span><b>3800 ₽</b></li>
+              <li><span>Укрепляющее средство IBX EMI</span><b>+500 ₽</b></li>
+            </ul>
+          </article>
+
+          <article class="price-block reveal delay-1">
+            <h3>Педикюр</h3>
+            <ul>
+              <li><span>Smart педикюр с покрытием гель-лак</span><b>3000/3300 ₽</b></li>
+              <li><span>Smart педикюр с обработкой стоп и пальцев</span><b>2350/2550 ₽</b></li>
+              <li><span>Smart педикюр с покрытием цветной лак</span><b>2800/3100 ₽</b></li>
+              <li><span>Пальчики с покрытием гель-лак</span><b>2350/2550 ₽</b></li>
+              <li><span>Снятие + пальчики с покрытием гель-лак</span><b>2550/2750 ₽</b></li>
+              <li><span>Smart мужской педикюр</span><b>2700/2900 ₽</b></li>
+              <li><span>Smart обработка стопы</span><b>1800/2000 ₽</b></li>
+            </ul>
+          </article>
+
+          <article class="price-block reveal delay-2">
+            <h3>Ресницы</h3>
+            <ul>
+              <li><span>Классическое наращивание</span><b>2400/2600/2800 ₽</b></li>
+              <li><span>1.5D наращивание</span><b>2600/2800/3000 ₽</b></li>
+              <li><span>2D наращивание</span><b>2900/3100/3300 ₽</b></li>
+              <li><span>3D наращивание</span><b>3200/3400/3600 ₽</b></li>
+              <li><span>4D наращивание</span><b>3400/3600/3800 ₽</b></li>
+              <li><span>Коррекция ресниц</span><b>1700/1900/2100 ₽</b></li>
+              <li><span>Экспресс наращивание</span><b>2300/2500/2700 ₽</b></li>
+              <li><span>Наращивание уголков</span><b>1700/1900/2100 ₽</b></li>
+              <li><span>Мокрый эффект</span><b>+400/500 ₽</b></li>
+              <li><span>Ламинирование ресниц</span><b>2200/2400/2600 ₽</b></li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery section" id="gallery">
+      <div class="container">
+        <p class="kicker center reveal">ГАЛЕРЕЯ</p>
+        <h2 class="center reveal">Тестовые фото работ</h2>
+        <div class="gallery-grid">
+          <img class="reveal" src="https://images.unsplash.com/photo-1519014816548-bf5fe059798b?auto=format&fit=crop&w=900&q=80" alt="Маникюр светлый" />
+          <img class="reveal delay-1" src="https://images.unsplash.com/photo-1604902396830-aca29e19b067?auto=format&fit=crop&w=900&q=80" alt="Маникюр темный" />
+          <img class="reveal delay-2" src="https://images.unsplash.com/photo-1610992015732-2449b76344bc?auto=format&fit=crop&w=900&q=80" alt="Наращивание ресниц" />
+          <img class="reveal" src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=900&q=80" alt="Бьюти процесс" />
+          <img class="reveal delay-1" src="https://images.unsplash.com/photo-1596704017254-9f89f2f7f0d6?auto=format&fit=crop&w=900&q=80" alt="Лаконичный маникюр" />
+          <img class="reveal delay-2" src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=900&q=80" alt="Ресницы крупный план" />
+        </div>
+      </div>
+    </section>
+
+    <section class="reviews section" id="reviews">
+      <div class="container">
+        <p class="kicker center reveal">ОТЗЫВЫ</p>
+        <h2 class="center reveal">Клиенты возвращаются снова</h2>
+        <div class="review-grid">
+          <blockquote class="review reveal">"Безупречный маникюр, покрытие держится идеально, сервис на уровне luxury." <cite>- Анастасия</cite></blockquote>
+          <blockquote class="review reveal delay-1">"Очень аккуратная работа по ресницам, натуральный эффект и комфорт в носке." <cite>- Кристина</cite></blockquote>
+          <blockquote class="review reveal delay-2">"Сильная студия: чисто, красиво, результат каждый раз отличный." <cite>- Елизавета</cite></blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="container contact-wrap reveal">
+        <p class="kicker">КОНТАКТЫ</p>
+        <h2>Как нас найти</h2>
+        <div class="contact-card">
+          <p><strong>Адрес:</strong> просп. Королёва, 57, корп. 1, Санкт-Петербург</p>
+          <p><strong>Вход:</strong> со стороны двора (территория закрыта, необходимо позвонить в домофон)</p>
+          <p><strong>Телефон:</strong> <a href="tel:+79992177474">+7 999 217-74-74</a></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© 2026 Студия Красоты 29</p>
+      <a href="#top">Наверх</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
